@@ -13,5 +13,5 @@ print("\n")
 for g in range(1,11):
     for i in range(1,11):
         result = g * i
-        print(f"{result}",end="" "\t")
+        print(f"{result:4}",end="" "\t")
     print("\n")

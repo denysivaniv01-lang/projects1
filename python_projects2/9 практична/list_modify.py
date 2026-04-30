@@ -12,4 +12,4 @@ print(li)
 another_list =["Milk","Bread"]
 li.extend(another_list)
 print(li)
-# сиильно б нічого не змінилосся,бо резульатат один і тий самий однак 
+# Метод extend(another_list) розпаковує список і додає кожен його елемент окремо по декілька. A append додає один об'єкт
