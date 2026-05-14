@@ -26,6 +26,7 @@ print("-" * 40)
 print("\n")
 
 score = 0
+score = score + 10
 print(score)
 score += 10
 print(score)
@@ -37,8 +38,8 @@ score *= 2
 print(score)
 print("\n")
 
-total = 99.99 * 1.20  # множення
-round(total, 2)  # множення 99.99 на 1.20 = 119.987
+total =3.3333333333333333
+print(round(total, 3)) # множення 99.99 на 1.20 = 119.987 але закругляєм до 120
 print(min(10, 2, 6, 4, 9, 7, 1))  # знаходження найменшого значеня 1
 print(max(10, 2, 6, 4, 9, 7, 1))  # знаходження найбіль 10
 print(round(5.5))  # вийде 6 бо ми закрюглоємо

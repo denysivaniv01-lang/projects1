@@ -1,6 +1,8 @@
-num = 0
-mode = 'text'
-for i in mode:
-    if i == 't':
-        num += 1
-        print(i, num)
+a = True
+c = int(a)
+print(c)
+
+# a = 10
+# b = "book"
+# c = a * b
+# print(c)
