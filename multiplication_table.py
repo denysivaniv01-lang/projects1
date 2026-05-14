@@ -7,3 +7,11 @@ while множники < 10:  # поки наші множнки будуть м
     num = множники
     # виводим що разу після кожного доданого числа
     print(f"{num}. {number} x {множники} = {res}")
+
+#Практична 8
+print("\n")
+for g in range(1,11):
+    for i in range(1,11):
+        result = g * i
+        print(f"{result:4}",end="" "\t")
+    print("\n")
